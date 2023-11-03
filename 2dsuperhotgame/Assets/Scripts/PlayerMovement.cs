@@ -38,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
 		}
 
         UpdateAnimationState();
+        //Debug.Log(rb.velocity.x);
+        //Debug.Log(rb.velocity.y);
     }
 
     private void UpdateAnimationState()
