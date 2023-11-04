@@ -356,9 +356,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 32
+        y: 36
         width: 32
-        height: 32
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,6 +477,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Player_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc8de32854da6e4081f3802cdf3b1ed
+      internalID: -883632486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 33
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5302651, y: 0.4306427}
+      border: {x: 2, y: 0, z: 0, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f9c9d96aede7d478eb924f3e39409c
+      internalID: -771894495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -499,6 +541,8 @@ TextureImporter:
       Jump_2: 760026903
       Jump_3: -636315203
       Jump_F: 993225353
+      Player_0: -883632486
+      Player_1: -771894495
       Run_0: 1896810918
       Run_1: 1834290413
       Run_2: -1321003241
