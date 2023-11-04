@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator anim;
 
+    public TimeManager timeManager;
+
     [SerializeField] private LayerMask jumpableGround;
 
     private float dirX = 0f;
@@ -38,6 +40,11 @@ public class PlayerMovement : MonoBehaviour
 		}
 
         UpdateAnimationState();
+
+        if (rb.velocity.y == 0 && rb.velocity.x == 0)
+            {
+                timeManager.DoSlowmotion(); 
+            }
         //Debug.Log(rb.velocity.x);
         //Debug.Log(rb.velocity.y);
     }
@@ -59,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             state = MovementState.idle;
+            
         }
         if (rb.velocity.y > .001f)
         {

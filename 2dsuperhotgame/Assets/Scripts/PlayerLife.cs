@@ -8,6 +8,7 @@ public class PlayerLife : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
 
+    public TimeManager timeManager;
 
     private void Start()
     {
@@ -25,7 +26,6 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
-        rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("Death");
     }
 
