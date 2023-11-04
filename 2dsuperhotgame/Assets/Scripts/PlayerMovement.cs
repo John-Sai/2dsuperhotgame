@@ -44,6 +44,10 @@ public class PlayerMovement : MonoBehaviour
         if (rb.velocity.y == 0 && rb.velocity.x == 0)
             {
                 timeManager.DoSlowmotion(); 
+            } 
+        else 
+            {
+                timeManager.UnDoSlowmotion();
             }
         //Debug.Log(rb.velocity.x);
         //Debug.Log(rb.velocity.y);

@@ -8,8 +8,6 @@ public class PlayerLife : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
 
-    public TimeManager timeManager;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
