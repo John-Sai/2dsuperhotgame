@@ -436,7 +436,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_0
+      name: Death
       rect:
         serializedVersion: 2
         x: 96
@@ -488,6 +488,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Death: -629076819
       Fall_1: -1457678903
       Fall_2: 694924230
       Fall_S: 886489793
@@ -498,7 +499,6 @@ TextureImporter:
       Jump_2: 760026903
       Jump_3: -636315203
       Jump_F: 993225353
-      Player_0: -629076819
       Run_0: 1896810918
       Run_1: 1834290413
       Run_2: -1321003241
