@@ -21,10 +21,6 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -883632486, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
-    - time: 0.083333336
-      value: {fileID: -629076819, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
-    - time: 0.16666667
       value: {fileID: -771894495, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
     - time: 0.6666667
       value: {fileID: -771894495, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
@@ -50,8 +46,6 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -883632486, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
-    - {fileID: -629076819, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
     - {fileID: -771894495, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
     - {fileID: -771894495, guid: 10f3cacccb0c4c547be76836eba20664, type: 3}
   m_AnimationClipSettings:
@@ -79,7 +73,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.33333334
+  - time: 0
     functionName: RestartLevel
     data: 
     objectReferenceParameter: {fileID: 0}
